@@ -1,13 +1,8 @@
 LILYGO T-Display-S3 KY-028 Digital Thermistor Sensor Project
 
-This sketch reads the analog and digital signals from the KY-028 module and displays them on the built-in screen of the LilyGO T-Display-S3 using the TFT_eSPI library.
-The KY-028 module includes an NTC thermistor and a comparator circuit with a potentiometer.
-
-Description:
-
-  This code reads analog and digital signals from the KY-028 module and displays them on the built-in screen of the LilyGO T-Display-S3 using the TFT_eSPI library.
-  The code uses state machine logic to avoid using delays, which is code blocking.
-  The screen is only updated if there is a change in readings.
+This code reads analog and digital signals from the KY-028 module and displays them on the built-in screen of the LilyGO T-Display-S3 using the TFT_eSPI library.
+The code uses state machine logic to avoid using delays, which is code blocking.
+The screen is only updated if there is a change in readings.
 
 How to Use the KY-028 Potentiometer:
 
